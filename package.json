@@ -1,0 +1,17 @@
+{
+  "name": "capacitacion",
+  "version": "1.0.0",
+  "description": "Framwork para automatizacion de pruebas",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "Cyntia",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^24.7.1"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0"
+  }
+}
