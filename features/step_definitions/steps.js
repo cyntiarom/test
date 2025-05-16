@@ -78,7 +78,7 @@ Then("Buscar producto", async function () {
         const nvoSelector = '.ui-search-filter-dl'; 
         await page.waitForSelector(nvoSelector);
 
-        await page.locator('.ui-search-filter-dl span[title^="Nuevo"]').click();
+        await page.locator('.ui-search-filter-dl a[title^="Nuevo"]').click();
        //caputura de pantalla
       await page.screenshot({ path: 'features/screenshots/4_condicion_nvo.png', fullPage: true });
         // Esperar a que los resultados se actualicen
